@@ -1,0 +1,36 @@
+{
+    "name": "BookmarkWords",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Easily bookmark words for future reference whenever you come across it on the web!",
+    "icons": {
+        "16": "icons/bw16.png",
+        "48": "icons/bw48.png",
+        "128": "icons/bw128.png"
+    },
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "icons/bw19.png",
+        "default_title": "Bookmarked words",
+        "default_popup": "src/popup.html"
+    },
+    "permissions": [
+        "contextMenus",
+        "<all_urls>",
+        "tabs",
+        "activeTab",
+        "notifications"
+    ],
+    "commands": {
+        "toggle-feature": {
+            "suggested_key": {
+                "default": "Alt+B"
+            },
+            "description": "Add the selected word as a bookmark"
+        }
+    }
+}

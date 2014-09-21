@@ -1,0 +1,36 @@
+#container {
+    border-radius: 15px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    border: 1px solid gray;
+    font-size: 20px;
+    list-style-position: inside;
+}
+body {
+    background-image: -webkit-linear-gradient(#ededed, #ededed 100%, #dedede);
+}
+#emphasis {
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration: underline;
+}
+.popup {
+   margin: auto;
+    width: 300px;  
+    height: 300px;
+    overflow: auto;
+}
+a:link {
+    color: #0000FF;
+}
+a:visited {
+    color: #0000FF;
+}
+a:hover {
+    color: #0000FF;
+}
+a:active {
+    color: #0000FF;
+}
